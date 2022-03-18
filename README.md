@@ -1,3 +1,3 @@
-# SMP
+# Stable Marriage Problem
 The user can build a database of students and schools by loading them from input files. An input file for a student would 
 contain the students' names, GPAs, extracurricular scores, and their rankings of schools. The input file for schools would contain school-names, and GPA weights (each school automatically ranks each student based on its GPA weight). After students and schools have been loaded, the user can perform the program's functionality of optimally matching the students and schools using the Gale-Shapley algorithm. At any point, the user has the option of editing the data, and printing it in an organized tabular format. Additionally, using the given data, the program will be able to display whether the current matches in place that the program has made are stable as well as display the regrets of the students and schools. Note that it is possible for a match to not be stable if edits have been made.
